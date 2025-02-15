@@ -4,6 +4,10 @@
 
 ---
 
+- [Documentation](developer/docs.md)
+
+---
+
 - [Windows](windows-getting-started.md)
 
 ---
