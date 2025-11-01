@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1761870468757,
+  "lastUpdate": 1761956502701,
   "repoUrl": "https://github.com/dblnz/runwasi",
   "entries": {
     "Criterion.rs Benchmark": [
@@ -28536,6 +28536,52 @@ window.BENCHMARK_DATA = {
             "value": 19296,
             "unit": "kB",
             "extra": "shim: 16032 kB\nzygote: 3264 kB"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Jiaxiao Zhou",
+            "username": "Mossaka",
+            "email": "duibao55328@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "828bad33924cda1f534fc7fb7be03c3555d44caf",
+          "message": "Merge pull request #872 from containerd/dependabot/github_actions/sigstore/cosign-installer-3.8.1\n\nchore(deps): bump sigstore/cosign-installer from 3.8.0 to 3.8.1",
+          "timestamp": "2025-02-25T23:48:04Z",
+          "url": "https://github.com/dblnz/runwasi/commit/828bad33924cda1f534fc7fb7be03c3555d44caf"
+        },
+        "date": 1761956494139,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "wamr/memory-usage",
+            "value": 15064,
+            "unit": "kB",
+            "extra": "shim: 12464 kB\nzygote: 2600 kB"
+          },
+          {
+            "name": "wasmedge/memory-usage",
+            "value": 66268,
+            "unit": "kB",
+            "extra": "shim: 53952 kB\nzygote: 12316 kB"
+          },
+          {
+            "name": "wasmer/memory-usage",
+            "value": 18412,
+            "unit": "kB",
+            "extra": "shim: 14952 kB\nzygote: 3460 kB"
+          },
+          {
+            "name": "wasmtime/memory-usage",
+            "value": 19456,
+            "unit": "kB",
+            "extra": "shim: 16320 kB\nzygote: 3136 kB"
           }
         ]
       }
